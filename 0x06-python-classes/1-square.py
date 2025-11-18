@@ -7,4 +7,4 @@ class Square:
     """ A square class with one private instance attribute """
 
     def __init__(self, size):
-        self._size = size
+        self.__size = size
